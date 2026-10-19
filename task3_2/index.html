@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            padding: 0;
+            margin: 0;
+        }
+
+        #mensaje, #error_opcion{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1><i>Tasks 3-2</i></h1>
+
+    <h3>APARCAMIENTO INTELIGENTE</h3>
+
+    <!-- <form> -->
+
+        <label>Hora de Entrada:</label>
+        <input type="text" id="entrada">
+        <br>
+        <label for="">Hora de Salida:</label>
+        <input type="text" id="salida">
+        <p id="mensaje"></p>
+
+        <p>Tipo de descuento:</p>
+        <p>1. Sin descuento</p>
+        <p>2. Vehículo eléctrico(20%)</p>
+        <p>3. Residente(30%)</p>
+        <p>Selecciona una opción:</p>
+        <input type="number" name="opcion" id="opcion">
+        
+        <button id="btn">Enviar</button>
+        <p id="error_opcion"></p>
+
+        <div class="mostrar"></div> 
+
+    <!-- </form> -->
+
+
+    <script src="./js.js"></script>
+</body>
+</html>
